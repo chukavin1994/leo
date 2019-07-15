@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap&subset=cyrillic');
+header {
+    background: url(../img/background.png);
+    background-size: cover;
+}
+h1 {
+    color: #ffffff;
+    font-size: 119px;
+    font-weight: 400;
+    opacity: 0.68;
+    font-family: 'Inconsolata', monospace;
+}
+ul {
+    font-size: 0;
+    margin-top: 50px;
+    text-align: right;
+    li {
+        display: inline-block;
+        margin-right: 40px;
+        a {
+            text-decoration: none;
+           font-size: 23px;
+           color: #ffffff;
+           font-family: 'PT Sans Narrow', sans-serif;
+        }
+    }
+}
+ul>li:hover a {
+    color: #ffffff;
+}
+.item>img {
+    margin-left: 140px;
+}
+.carousel-caption {
+    left: 60%;
+    top: 30%;
+        p {
+            font-family: 'PT Sans Narrow', sans-serif;
+            font-size: 55px;
+            font-weight: 300;
+        }
+        p+p {
+            font-size: 35px;
+        }
+}
+.carousel-control {
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    transform: translate(0, -50%);
+        span {
+            font-size: 50px;
+        }
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}

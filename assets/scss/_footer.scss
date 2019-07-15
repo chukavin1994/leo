@@ -1,0 +1,27 @@
+footer {
+    background: url(../img/background2.png);
+    background-size: cover;
+}
+.about_us,
+.testimonials {
+    h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 300;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    p {
+        color: #ffffff;
+        font-size: 13px;
+        opacity: 0.5;
+    }
+    a{
+        color: #ffffff;
+       
+    }
+}
+.logo>p {
+    color: #ffffff;
+    opacity: 0.5; 
+    font-size: 13px;
+}
